@@ -53,7 +53,7 @@ const Login = () => {
           placeholder="Password"
           className="p-2 my-4 w-full bg-gray-700"
         />
-        <p className="text-red-500 font-bold text-lg py-2">{errorMessage}</p>
+        <p className="text-red-500 font-bold py-2">{errorMessage}</p>
         <button
           className="p-3 my-4 bg-red-700 w-full rounded-lg"
           onClick={handleSubmit}
